@@ -22,3 +22,27 @@ fn main() {
     println!("Sorted numbers: {:?}", nums);
 }
 ```
+## Examples
+```
+use sorting_library::sorting::*;
+
+fn main() {
+    let mut nums = vec![5, 2, 7, 1, 9];
+    
+    // Perform insertion sort
+    insertion_sort(&mut nums);
+    println!("Insertion Sort: {:?}", nums);
+
+    // Perform selection sort
+    selection_sort(&mut nums);
+    println!("Selection Sort: {:?}", nums);
+
+    // Perform quick sort
+    quick_sort(&mut nums);
+    println!("Quick Sort: {:?}", nums);
+
+    // Perform merge sort
+    merge_sort(&mut nums);
+    println!("Merge Sort: {:?}", nums);
+}
+```
