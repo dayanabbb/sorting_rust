@@ -10,4 +10,15 @@ You can use it in your Rust projects by adding it as a dependency in your `Cargo
 ```toml
 [dependencies]
 sorting_library = "0.1.0"
+```
 
+## Then, you can use the sorting functions in your Rust code as follows:
+```
+use sorting_library::sorting::*;
+
+fn main() {
+    let mut nums = vec![5, 2, 7, 1, 9];
+    insertion_sort(&mut nums);
+    println!("Sorted numbers: {:?}", nums);
+}
+```
