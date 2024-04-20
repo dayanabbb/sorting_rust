@@ -12,6 +12,7 @@ Clone the repository:
 ```
 git clone https://github.com/dayanabbb/sorting_rust.git
 ```
+![rep](img/1.png)
 
 ## Usage
 
@@ -22,6 +23,8 @@ You can use it in your Rust projects by adding it as a dependency in your `Cargo
 [dependencies]
 sorting = {path="path/to/sorting_rust"}
 ```
+![dep](img/2.png)
+
 
 ## Then, import the sorting library:
 ```
@@ -29,6 +32,8 @@ use sorting::sorting::*;
 use sorting::IntComparator;
 
 ```
+![dep](img/4.png)
+
 ## Example
 ```
 use sorting::sorting::*;
@@ -42,3 +47,6 @@ fn main() {
     println!("Sorted numbers: {:?}", nums);
 }
 ```
+![dep](img/3.png)
+
+![dep](img/5.png)
