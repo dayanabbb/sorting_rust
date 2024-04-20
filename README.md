@@ -20,40 +20,25 @@ You can use it in your Rust projects by adding it as a dependency in your `Cargo
 
 ```toml
 [dependencies]
-sorting_library = "0.1.0"
+sorting = {path="path/to/sorting_rust"}
 ```
 
-## Then, you can use the sorting functions in your Rust code as follows:
+## Then, import the sorting library:
 ```
-use sorting_library::sorting::*;
+use sorting::sorting::*;
+use sorting::IntComparator;
 
-fn main() {
-    let mut nums = vec![5, 2, 7, 1, 9];
-    insertion_sort(&mut nums);
-    println!("Sorted numbers: {:?}", nums);
-}
 ```
-## Examples
+## Example
 ```
-use sorting_library::sorting::*;
+use sorting::sorting::*;
+use sorting::IntComparator;
 
 fn main() {
-    let mut nums = vec![5, 2, 7, 1, 9];
+    let mut nums = vec![30, 10, 50, 20, 40];
     
-    // Perform insertion sort
-    insertion_sort(&mut nums);
-    println!("Insertion Sort: {:?}", nums);
-
-    // Perform selection sort
-    selection_sort(&mut nums);
-    println!("Selection Sort: {:?}", nums);
-
-    // Perform quick sort
-    quick_sort(&mut nums);
-    println!("Quick Sort: {:?}", nums);
-
-    // Perform merge sort
-    merge_sort(&mut nums);
-    println!("Merge Sort: {:?}", nums);
+    // Use insertion sort from the sorting_rust library
+    insert_sort(&mut nums, &IntComparator);
+    println!("Sorted numbers: {:?}", nums);
 }
 ```
