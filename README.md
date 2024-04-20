@@ -2,10 +2,10 @@
 
 This is a Rust library which can do sorting of any object types.
 It consists of 
-1)Insert sort;
-2)Select sort;
-3)Quick sort;
-4)Merge sort.
+-Insert sort;
+-Select sort;
+-Quick sort;
+-Merge sort.
 
 ## How to install
 Clone the repository:
