@@ -11,7 +11,7 @@ You can use it in your Rust projects by adding it as a dependency in your `Cargo
 [dependencies]
 sorting_library = "0.1.0"
 
-Then, you can use the sorting functions in your Rust code as shown here:
+## Then, you can use the sorting functions in your Rust code as shown here:
 
 use sorting_library::sorting::*;
 
