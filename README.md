@@ -1,6 +1,17 @@
 # Sorting Library in Rust
 
 This is a Rust library which can do sorting of any object types.
+It consists of 
+1)Insert sort;
+2)Select sort;
+3)Quick sort;
+4)Merge sort.
+
+## How to install
+Clone the repository:
+```
+git clone https://github.com/dayanabbb/sorting_rust.git
+```
 
 ## Usage
 
